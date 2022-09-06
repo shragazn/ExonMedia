@@ -19,6 +19,7 @@ body {
   width: 100vw;
   align-items: center;
   min-width: 300px;
+  padding-bottom: 30px;
 }
 
 /*      TABLET       */
