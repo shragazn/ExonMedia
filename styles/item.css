@@ -25,21 +25,35 @@
   display: flex;
   padding: 8px;
   gap: 8px;
-  background-color: #d4eaff;
   border-radius: 0px 8px 8px 0px;
-  color: #0b76e0;
   translate: -7px -50%;
   z-index: 1;
 }
 
 .wedge::after {
   content: '';
-  color: #99cdff;
   border-left: 7px solid transparent;
   border-top: 7px solid;
   position: absolute;
   bottom: -7px;
   left: 0px;
+}
+
+.best-value {
+  background-color: #d4eaff;
+  color: #0b76e0;
+}
+.best-value::after {
+  color: #99cdff;
+}
+
+.best-choice {
+  background-color: #ff5c00;
+  color: #fff;
+}
+
+.best-choice::after {
+  color: #b04000;
 }
 
 .id {
