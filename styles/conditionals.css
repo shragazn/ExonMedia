@@ -1,0 +1,36 @@
+.desktop {
+  display: none;
+}
+
+.tablet {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/*      DESKTOP         */
+@media (min-width: 1075px) {
+  .desktop {
+    display: flex;
+  }
+}
+
+/*      TABLET      */
+@media (max-width: 1074px) and (min-width: 721px) {
+  .tablet {
+    display: flex;
+  }
+
+  button {
+    padding: 8px 40px;
+  }
+}
+
+/*      MOBILE       */
+@media (max-width: 720px) {
+  .mobile {
+    display: flex;
+  }
+}
